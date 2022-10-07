@@ -1,10 +1,27 @@
 const { widget } = figma;
-const { AutoLayout, Ellipse, Frame, Image, Rectangle, SVG, Text } = widget;
+const { AutoLayout, Ellipse, Frame, Image, Input, Rectangle, SVG, Text, useSyncedState, usePropertyMenu, useEffect } = widget;
+
+
 
 function InsightFramework() {
+  const [whytext, setWhytext] = useSyncedState<string>('whytext', "")
+  const [stoptext, setStoptext] = useSyncedState<string>('stoptext', "")
+  const [findingstext, setFindingstext] = useSyncedState<string>('findingstext', "")
+  const [successtext, setSuccesstext] = useSyncedState<string>('successtext', "")
+
+
   return (
     <AutoLayout
       name="InsightFramework"
+      effect={{
+        type: "drop-shadow",
+        color: "#2C2B2A1A",
+        offset: {
+          x: 0,
+          y: 2,
+        },
+        blur: 4,
+      }}
       fill="#FFF"
       overflow="visible"
       direction="vertical"
@@ -38,7 +55,7 @@ function InsightFramework() {
             fontFamily="Inter"
             fontSize={58}
             letterSpacing={
-              -0.58
+              -1.2
             }
             fontWeight={700}
           >
@@ -77,33 +94,32 @@ function InsightFramework() {
           overflow="visible"
           width="fill-parent"
         >
-          <Text
-            name="Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
-            fill="#2C2B2A"
-            width="fill-parent"
-            paragraphSpacing={
-              9
-            }
-            lineHeight={25}
-            fontFamily="Inter"
-            fontSize={15}
-            strokeWidth={0}
-            strokeAlign="inside"
-          >
-            Neque porro
-            quisquam est, qui
-            dolorem ipsum quia
-            dolor sit amet,
-            consectetur,
-            adipisci velit,
-            sed quia non
-            numquam eius modi
-            tempora incidunt
-            ut labore et
-            dolore magnam
-            aliquam quaerat
-            voluptatem.
-          </Text>
+
+        <Input
+              value={whytext}
+              placeholder="Add your answer here ..."
+              onTextEditEnd={(e) => {
+                setWhytext(e.characters);
+              }}
+              placeholderProps={{
+                opacity: 0.4,
+                fontWeight: 400,
+              }}
+              fill="#2C2B2A"
+              width="fill-parent"
+              paragraphSpacing={
+                9
+              }
+              lineHeight={25}
+              fontFamily="Inter"
+              fontSize={15}
+              strokeWidth={0}
+              strokeAlign="inside"
+              inputFrameProps={{
+              }}
+              inputBehavior="wrap"
+            />
+
         </AutoLayout>
       </AutoLayout>
       <AutoLayout
@@ -135,35 +151,163 @@ function InsightFramework() {
         <AutoLayout
           name="A"
           overflow="visible"
+          direction="vertical"
+          spacing={12}
           width="fill-parent"
         >
-          <Text
-            name="Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
-            fill="#2C2B2A"
+          <AutoLayout
+            name="Desc"
+            overflow="visible"
+            direction="vertical"
             width="fill-parent"
-            paragraphSpacing={
-              9
-            }
-            lineHeight={25}
-            fontFamily="Inter"
-            fontSize={15}
-            strokeWidth={0}
-            strokeAlign="inside"
           >
-            Neque porro
-            quisquam est, qui
-            dolorem ipsum quia
-            dolor sit amet,
-            consectetur,
-            adipisci velit,
-            sed quia non
-            numquam eius modi
-            tempora incidunt
-            ut labore et
-            dolore magnam
-            aliquam quaerat
-            voluptatem.
-          </Text>
+        <Input
+              value={stoptext}
+              placeholder="Add your answer here ..."
+              onTextEditEnd={(e) => {
+                setStoptext(e.characters);
+              }}
+              placeholderProps={{
+                opacity: 0.4,
+                fontWeight: 400,
+              }}
+              fill="#2C2B2A"
+              width="fill-parent"
+              paragraphSpacing={
+                9
+              }
+              lineHeight={25}
+              fontFamily="Inter"
+              fontSize={15}
+              strokeWidth={0}
+              strokeAlign="inside"
+              inputFrameProps={{
+              }}
+              inputBehavior="wrap"
+            />
+
+
+          </AutoLayout>
+          <AutoLayout
+            name="List"
+            overflow="visible"
+            direction="vertical"
+            spacing={4}
+            width="fill-parent"
+          >
+            <AutoLayout
+              name="List Item"
+              overflow="visible"
+              width="fill-parent"
+            >
+              <Text
+                name="Autem quibusdam et aut officiis."
+                fill="#2C2B2A"
+                width="fill-parent"
+                paragraphSpacing={
+                  9
+                }
+                lineHeight={
+                  25
+                }
+                fontFamily="Inter"
+                fontSize={15}
+                strokeWidth={
+                  0
+                }
+                strokeAlign="inside"
+              >
+                &#8226; Autem
+                quibusdam et
+                aut officiis.
+              </Text>
+            </AutoLayout>
+            <AutoLayout
+              name="List Item"
+              overflow="visible"
+              width="fill-parent"
+            >
+              <Text
+                name="Harum quidem rerum facilis est et expedita."
+                fill="#2C2B2A"
+                width="fill-parent"
+                paragraphSpacing={
+                  9
+                }
+                lineHeight={
+                  25
+                }
+                fontFamily="Inter"
+                fontSize={15}
+                strokeWidth={
+                  0
+                }
+                strokeAlign="inside"
+              >
+                &#8226; Harum quidem
+                rerum facilis
+                est et
+                expedita.
+              </Text>
+            </AutoLayout>
+            <AutoLayout
+              name="List Item"
+              overflow="visible"
+              width="fill-parent"
+            >
+              <Text
+                name="Itaque earum rerum hic tenetur a sapiente delectus."
+                fill="#2C2B2A"
+                width="fill-parent"
+                paragraphSpacing={
+                  9
+                }
+                lineHeight={
+                  25
+                }
+                fontFamily="Inter"
+                fontSize={15}
+                strokeWidth={
+                  0
+                }
+                strokeAlign="inside"
+              >
+                &#8226; Itaque earum
+                rerum hic
+                tenetur a
+                sapiente
+                delectus.
+              </Text>
+            </AutoLayout>
+            <AutoLayout
+              name="List Item"
+              overflow="visible"
+              width="fill-parent"
+            >
+              <Text
+                name="Sed quia non numquam eius modi tempora incidunt."
+                fill="#2C2B2A"
+                width="fill-parent"
+                paragraphSpacing={
+                  9
+                }
+                lineHeight={
+                  25
+                }
+                fontFamily="Inter"
+                fontSize={15}
+                strokeWidth={
+                  0
+                }
+                strokeAlign="inside"
+              >
+                &#8226; Sed quia non
+                numquam eius
+                modi tempora
+                incidunt.
+              </Text>
+            </AutoLayout>
+          </AutoLayout>
         </AutoLayout>
       </AutoLayout>
       <AutoLayout
@@ -195,35 +339,164 @@ function InsightFramework() {
         <AutoLayout
           name="A"
           overflow="visible"
+          direction="vertical"
+          spacing={12}
           width="fill-parent"
         >
-          <Text
-            name="Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
-            fill="#2C2B2A"
+          <AutoLayout
+            name="Desc"
+            overflow="visible"
+            direction="vertical"
             width="fill-parent"
-            paragraphSpacing={
-              9
-            }
-            lineHeight={25}
-            fontFamily="Inter"
-            fontSize={15}
-            strokeWidth={0}
-            strokeAlign="inside"
           >
-            Neque porro
-            quisquam est, qui
-            dolorem ipsum quia
-            dolor sit amet,
-            consectetur,
-            adipisci velit,
-            sed quia non
-            numquam eius modi
-            tempora incidunt
-            ut labore et
-            dolore magnam
-            aliquam quaerat
-            voluptatem.
-          </Text>
+            
+            <Input
+              value={findingstext}
+              placeholder="Add your answer here ..."
+              onTextEditEnd={(e) => {
+                setFindingstext(e.characters);
+              }}
+              placeholderProps={{
+                opacity: 0.4,
+                fontWeight: 400,
+              }}
+              fill="#2C2B2A"
+              width="fill-parent"
+              paragraphSpacing={
+                9
+              }
+              lineHeight={25}
+              fontFamily="Inter"
+              fontSize={15}
+              strokeWidth={0}
+              strokeAlign="inside"
+              inputFrameProps={{
+              }}
+              inputBehavior="wrap"
+            />
+
+
+          </AutoLayout>
+          <AutoLayout
+            name="List"
+            overflow="visible"
+            direction="vertical"
+            spacing={4}
+            width="fill-parent"
+          >
+            <AutoLayout
+              name="List Item"
+              overflow="visible"
+              width="fill-parent"
+            >
+              <Text
+                name="Autem quibusdam et aut officiis."
+                fill="#2C2B2A"
+                width="fill-parent"
+                paragraphSpacing={
+                  9
+                }
+                lineHeight={
+                  25
+                }
+                fontFamily="Inter"
+                fontSize={15}
+                strokeWidth={
+                  0
+                }
+                strokeAlign="inside"
+              >
+                &#8226; Autem
+                quibusdam et
+                aut officiis.
+              </Text>
+            </AutoLayout>
+            <AutoLayout
+              name="List Item"
+              overflow="visible"
+              width="fill-parent"
+            >
+              <Text
+                name="Harum quidem rerum facilis est et expedita."
+                fill="#2C2B2A"
+                width="fill-parent"
+                paragraphSpacing={
+                  9
+                }
+                lineHeight={
+                  25
+                }
+                fontFamily="Inter"
+                fontSize={15}
+                strokeWidth={
+                  0
+                }
+                strokeAlign="inside"
+              >
+                &#8226; Harum quidem
+                rerum facilis
+                est et
+                expedita.
+              </Text>
+            </AutoLayout>
+            <AutoLayout
+              name="List Item"
+              overflow="visible"
+              width="fill-parent"
+            >
+              <Text
+                name="Itaque earum rerum hic tenetur a sapiente delectus."
+                fill="#2C2B2A"
+                width="fill-parent"
+                paragraphSpacing={
+                  9
+                }
+                lineHeight={
+                  25
+                }
+                fontFamily="Inter"
+                fontSize={15}
+                strokeWidth={
+                  0
+                }
+                strokeAlign="inside"
+              >
+                &#8226; Itaque earum
+                rerum hic
+                tenetur a
+                sapiente
+                delectus.
+              </Text>
+            </AutoLayout>
+            <AutoLayout
+              name="List Item"
+              overflow="visible"
+              width="fill-parent"
+            >
+              <Text
+                name="Sed quia non numquam eius modi tempora incidunt."
+                fill="#2C2B2A"
+                width="fill-parent"
+                paragraphSpacing={
+                  9
+                }
+                lineHeight={
+                  25
+                }
+                fontFamily="Inter"
+                fontSize={15}
+                strokeWidth={
+                  0
+                }
+                strokeAlign="inside"
+              >
+                &#8226; Sed quia non
+                numquam eius
+                modi tempora
+                incidunt.
+              </Text>
+            </AutoLayout>
+          </AutoLayout>
         </AutoLayout>
       </AutoLayout>
       <AutoLayout
@@ -392,7 +665,7 @@ function InsightFramework() {
             fontWeight={700}
           >
             What are the user
-            needs & wants?
+            needs and wants?
           </Text>
         </AutoLayout>
         <AutoLayout
@@ -429,7 +702,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                Autem
+                &#8226; Autem
                 quibusdam et
                 aut officiis.
               </Text>
@@ -456,7 +729,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                Harum quidem
+                &#8226; Harum quidem
                 rerum facilis
                 est et
                 expedita.
@@ -484,7 +757,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                Itaque earum
+                &#8226; Itaque earum
                 rerum hic
                 tenetur a
                 sapiente
@@ -513,7 +786,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                Sed quia non
+                &#8226; Sed quia non
                 numquam eius
                 modi tempora
                 incidunt.
@@ -568,7 +841,7 @@ function InsightFramework() {
               width="fill-parent"
             >
               <Text
-                name="Ut labore et dolore magnam aliquam quaerat voluptatem."
+                name="As a [persona], I [want to], [so that]."
                 fill="#2C2B2A"
                 width="fill-parent"
                 paragraphSpacing={
@@ -584,11 +857,10 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                Ut labore et
-                dolore magnam
-                aliquam
-                quaerat
-                voluptatem.
+                &#8226; As a
+                [persona], I
+                [want to], [so
+                that].
               </Text>
             </AutoLayout>
             <AutoLayout
@@ -613,7 +885,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                Et harum
+                &#8226; Et harum
                 quidem rerum
                 facilis est et
                 expedita
@@ -648,7 +920,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                Itaque earum
+                &#8226; Itaque earum
                 rerum hic
                 tenetur a
                 sapiente
@@ -680,7 +952,7 @@ function InsightFramework() {
           width="fill-parent"
         >
           <Text
-            name="What are the potential rabbit holes or interdependencies we have calculated?"
+            name="What are the potential rabbit holes or dependencies we have calculated?"
             fill="#2C2B2A"
             width="fill-parent"
             lineHeight={30}
@@ -691,9 +963,8 @@ function InsightFramework() {
             What are the
             potential rabbit
             holes or
-            interdependencies
-            we have
-            calculated?
+            dependencies we
+            have calculated?
           </Text>
         </AutoLayout>
         <AutoLayout
@@ -730,7 +1001,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                Autem
+                &#8226; Autem
                 quibusdam et
                 aut officiis.
               </Text>
@@ -757,7 +1028,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                Harum quidem
+                &#8226; Harum quidem
                 rerum facilis
                 est et
                 expedita.
@@ -785,7 +1056,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                Itaque earum
+                &#8226; Itaque earum
                 rerum hic
                 tenetur a
                 sapiente
@@ -814,7 +1085,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                Sed quia non
+                &#8226; Sed quia non
                 numquam eius
                 modi tempora
                 incidunt.
@@ -853,34 +1124,38 @@ function InsightFramework() {
           overflow="visible"
           width="fill-parent"
         >
-          <Text
-            name="Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-            fill="#2C2B2A"
-            width="fill-parent"
-            paragraphSpacing={
-              9
-            }
-            lineHeight={25}
-            fontFamily="Inter"
-            fontSize={15}
-            strokeWidth={0}
-            strokeAlign="inside"
-          >
-            Itaque earum rerum
-            hic tenetur a
-            sapiente delectus,
-            ut aut reiciendis
-            voluptatibus
-            maiores alias
-            consequatur aut
-            perferendis
-            doloribus
-            asperiores
-            repellat.
-          </Text>
+          
+          <Input
+              value={successtext}
+              placeholder="Add your answer here ..."
+              onTextEditEnd={(e) => {
+                setSuccesstext(e.characters);
+              }}
+              placeholderProps={{
+                opacity: 0.4,
+                fontWeight: 400,
+              }}
+              fill="#2C2B2A"
+              width="fill-parent"
+              paragraphSpacing={
+                9
+              }
+              lineHeight={25}
+              fontFamily="Inter"
+              fontSize={15}
+              strokeWidth={0}
+              strokeAlign="inside"
+              inputFrameProps={{
+              }}
+              inputBehavior="wrap"
+            />
+
+
         </AutoLayout>
       </AutoLayout>
     </AutoLayout>
+
   );
 }
+
 widget.register(InsightFramework);
