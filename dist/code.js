@@ -158,7 +158,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "\u2022 Autem quibusdam et aut officiis.")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u2022 Add, edit, or delete me")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "List Item",
       overflow: "visible",
       width: "fill-parent"
@@ -172,7 +172,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "\u2022 Harum quidem rerum facilis est et expedita.")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u2022 Add, edit, or delete me")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "List Item",
       overflow: "visible",
       width: "fill-parent"
@@ -186,21 +186,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "\u2022 Itaque earum rerum hic tenetur a sapiente delectus.")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
-      name: "List Item",
-      overflow: "visible",
-      width: "fill-parent"
-    }, /* @__PURE__ */ figma.widget.h(Text, {
-      name: "Sed quia non numquam eius modi tempora incidunt.",
-      fill: "#2C2B2A",
-      width: "fill-parent",
-      paragraphSpacing: 9,
-      lineHeight: 25,
-      fontFamily: "Inter",
-      fontSize: 15,
-      strokeWidth: 0,
-      strokeAlign: "inside"
-    }, "\u2022 Sed quia non numquam eius modi tempora incidunt."))))), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u2022 Add, edit, or delete me"))))), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "3",
       overflow: "visible",
       direction: "vertical",
@@ -269,7 +255,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "\u2022 Autem quibusdam et aut officiis.")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u2022 Add, edit, or delete me")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "List Item",
       overflow: "visible",
       width: "fill-parent"
@@ -283,7 +269,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "\u2022 Harum quidem rerum facilis est et expedita.")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u2022 Add, edit, or delete me")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "List Item",
       overflow: "visible",
       width: "fill-parent"
@@ -297,21 +283,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "\u2022 Itaque earum rerum hic tenetur a sapiente delectus.")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
-      name: "List Item",
-      overflow: "visible",
-      width: "fill-parent"
-    }, /* @__PURE__ */ figma.widget.h(Text, {
-      name: "Sed quia non numquam eius modi tempora incidunt.",
-      fill: "#2C2B2A",
-      width: "fill-parent",
-      paragraphSpacing: 9,
-      lineHeight: 25,
-      fontFamily: "Inter",
-      fontSize: 15,
-      strokeWidth: 0,
-      strokeAlign: "inside"
-    }, "\u2022 Sed quia non numquam eius modi tempora incidunt."))))), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u2022 Add, edit, or delete me"))))), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "4",
       overflow: "visible",
       direction: "vertical",
@@ -353,7 +325,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "Customer support? [Y/N]")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u{1F6DF} Customer support [Y/N]")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "List Item",
       overflow: "visible",
       width: "fill-parent"
@@ -367,7 +339,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "Data? [Y/N]")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u{1F4CA} Data [Y/N]")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "List Item",
       overflow: "visible",
       width: "fill-parent"
@@ -381,7 +353,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "User research? [Y/N]")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u{1F4DD} User research [Y/N]")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "List Item",
       overflow: "visible",
       width: "fill-parent"
@@ -395,7 +367,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "Social media? [Y/N]"))))), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u{1F469}\u200D\u{1F4BB} Social media [Y/N]"))))), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "5",
       overflow: "visible",
       direction: "vertical",
@@ -437,7 +409,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "\u2022 Autem quibusdam et aut officiis.")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u2022 Add, edit, or delete me")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "List Item",
       overflow: "visible",
       width: "fill-parent"
@@ -451,7 +423,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "\u2022 Harum quidem rerum facilis est et expedita.")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u2022 Add, edit, or delete me")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "List Item",
       overflow: "visible",
       width: "fill-parent"
@@ -465,21 +437,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "\u2022 Itaque earum rerum hic tenetur a sapiente delectus.")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
-      name: "List Item",
-      overflow: "visible",
-      width: "fill-parent"
-    }, /* @__PURE__ */ figma.widget.h(Text, {
-      name: "Sed quia non numquam eius modi tempora incidunt.",
-      fill: "#2C2B2A",
-      width: "fill-parent",
-      paragraphSpacing: 9,
-      lineHeight: 25,
-      fontFamily: "Inter",
-      fontSize: 15,
-      strokeWidth: 0,
-      strokeAlign: "inside"
-    }, "\u2022 Sed quia non numquam eius modi tempora incidunt."))))), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u2022 Add, edit, or delete me"))))), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "6",
       overflow: "visible",
       direction: "vertical",
@@ -521,7 +479,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "\u2022 As a [persona], I [want to], [so that].")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u2022 As a [user], I [want to], [so that].")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "List Item",
       overflow: "visible",
       width: "fill-parent"
@@ -535,7 +493,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "\u2022 Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u2022 Add, edit, or delete me")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "List Item",
       overflow: "visible",
       width: "fill-parent"
@@ -549,7 +507,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "\u2022 Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."))))), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u2022 Add, edit, or delete me"))))), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "7",
       overflow: "visible",
       direction: "vertical",
@@ -591,7 +549,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "\u2022 Autem quibusdam et aut officiis.")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u2022 Add, edit, or delete me")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "List Item",
       overflow: "visible",
       width: "fill-parent"
@@ -605,7 +563,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "\u2022 Harum quidem rerum facilis est et expedita.")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u2022 Add, edit, or delete me")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "List Item",
       overflow: "visible",
       width: "fill-parent"
@@ -619,21 +577,7 @@
       fontSize: 15,
       strokeWidth: 0,
       strokeAlign: "inside"
-    }, "\u2022 Itaque earum rerum hic tenetur a sapiente delectus.")), /* @__PURE__ */ figma.widget.h(AutoLayout, {
-      name: "List Item",
-      overflow: "visible",
-      width: "fill-parent"
-    }, /* @__PURE__ */ figma.widget.h(Text, {
-      name: "Sed quia non numquam eius modi tempora incidunt.",
-      fill: "#2C2B2A",
-      width: "fill-parent",
-      paragraphSpacing: 9,
-      lineHeight: 25,
-      fontFamily: "Inter",
-      fontSize: 15,
-      strokeWidth: 0,
-      strokeAlign: "inside"
-    }, "\u2022 Sed quia non numquam eius modi tempora incidunt."))))), /* @__PURE__ */ figma.widget.h(AutoLayout, {
+    }, "\u2022 Add, edit, or delete me"))))), /* @__PURE__ */ figma.widget.h(AutoLayout, {
       name: "8",
       overflow: "visible",
       direction: "vertical",

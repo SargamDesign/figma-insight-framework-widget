@@ -1,5 +1,7 @@
+![](help/images/cover.png)
+
 # Figma Insight Framework Widget
-The insight framework widget helps you to make sure you're answering the right questions during the project execution phase.
+Helps you to make sure you're answering the right questions.
 
 Run in development
 `npm run dev`

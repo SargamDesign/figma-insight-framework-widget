@@ -217,9 +217,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                &#8226; Autem
-                quibusdam et
-                aut officiis.
+                &#8226; Add, edit, or delete me
               </Text>
             </AutoLayout>
             <AutoLayout
@@ -244,10 +242,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                &#8226; Harum quidem
-                rerum facilis
-                est et
-                expedita.
+                &#8226; Add, edit, or delete me
               </Text>
             </AutoLayout>
             <AutoLayout
@@ -272,41 +267,10 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                &#8226; Itaque earum
-                rerum hic
-                tenetur a
-                sapiente
-                delectus.
+                &#8226; Add, edit, or delete me
               </Text>
             </AutoLayout>
-            <AutoLayout
-              name="List Item"
-              overflow="visible"
-              width="fill-parent"
-            >
-              <Text
-                name="Sed quia non numquam eius modi tempora incidunt."
-                fill="#2C2B2A"
-                width="fill-parent"
-                paragraphSpacing={
-                  9
-                }
-                lineHeight={
-                  25
-                }
-                fontFamily="Inter"
-                fontSize={15}
-                strokeWidth={
-                  0
-                }
-                strokeAlign="inside"
-              >
-                &#8226; Sed quia non
-                numquam eius
-                modi tempora
-                incidunt.
-              </Text>
-            </AutoLayout>
+
           </AutoLayout>
         </AutoLayout>
       </AutoLayout>
@@ -406,9 +370,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                &#8226; Autem
-                quibusdam et
-                aut officiis.
+                &#8226; Add, edit, or delete me
               </Text>
             </AutoLayout>
             <AutoLayout
@@ -433,10 +395,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                &#8226; Harum quidem
-                rerum facilis
-                est et
-                expedita.
+                &#8226; Add, edit, or delete me
               </Text>
             </AutoLayout>
             <AutoLayout
@@ -461,41 +420,10 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                &#8226; Itaque earum
-                rerum hic
-                tenetur a
-                sapiente
-                delectus.
+                &#8226; Add, edit, or delete me
               </Text>
             </AutoLayout>
-            <AutoLayout
-              name="List Item"
-              overflow="visible"
-              width="fill-parent"
-            >
-              <Text
-                name="Sed quia non numquam eius modi tempora incidunt."
-                fill="#2C2B2A"
-                width="fill-parent"
-                paragraphSpacing={
-                  9
-                }
-                lineHeight={
-                  25
-                }
-                fontFamily="Inter"
-                fontSize={15}
-                strokeWidth={
-                  0
-                }
-                strokeAlign="inside"
-              >
-                &#8226; Sed quia non
-                numquam eius
-                modi tempora
-                incidunt.
-              </Text>
-            </AutoLayout>
+
           </AutoLayout>
         </AutoLayout>
       </AutoLayout>
@@ -559,8 +487,8 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                Customer
-                support? [Y/N]
+                🛟 Customer
+                support [Y/N]
               </Text>
             </AutoLayout>
             <AutoLayout
@@ -585,7 +513,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                Data? [Y/N]
+                📊 Data [Y/N]
               </Text>
             </AutoLayout>
             <AutoLayout
@@ -610,7 +538,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                User research?
+                📝 User research
                 [Y/N]
               </Text>
             </AutoLayout>
@@ -636,7 +564,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                Social media?
+                👩‍💻 Social media
                 [Y/N]
               </Text>
             </AutoLayout>
@@ -702,9 +630,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                &#8226; Autem
-                quibusdam et
-                aut officiis.
+                &#8226; Add, edit, or delete me
               </Text>
             </AutoLayout>
             <AutoLayout
@@ -729,10 +655,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                &#8226; Harum quidem
-                rerum facilis
-                est et
-                expedita.
+                &#8226; Add, edit, or delete me
               </Text>
             </AutoLayout>
             <AutoLayout
@@ -757,41 +680,10 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                &#8226; Itaque earum
-                rerum hic
-                tenetur a
-                sapiente
-                delectus.
+                &#8226; Add, edit, or delete me
               </Text>
             </AutoLayout>
-            <AutoLayout
-              name="List Item"
-              overflow="visible"
-              width="fill-parent"
-            >
-              <Text
-                name="Sed quia non numquam eius modi tempora incidunt."
-                fill="#2C2B2A"
-                width="fill-parent"
-                paragraphSpacing={
-                  9
-                }
-                lineHeight={
-                  25
-                }
-                fontFamily="Inter"
-                fontSize={15}
-                strokeWidth={
-                  0
-                }
-                strokeAlign="inside"
-              >
-                &#8226; Sed quia non
-                numquam eius
-                modi tempora
-                incidunt.
-              </Text>
-            </AutoLayout>
+
           </AutoLayout>
         </AutoLayout>
       </AutoLayout>
@@ -858,7 +750,7 @@ function InsightFramework() {
                 strokeAlign="inside"
               >
                 &#8226; As a
-                [persona], I
+                [user], I
                 [want to], [so
                 that].
               </Text>
@@ -885,17 +777,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                &#8226; Et harum
-                quidem rerum
-                facilis est et
-                expedita
-                distinctio.
-                Nam libero
-                tempore, cum
-                soluta nobis
-                est eligendi
-                optio cumque
-                nihil impedit.
+                &#8226; Add, edit, or delete me
               </Text>
             </AutoLayout>
             <AutoLayout
@@ -920,20 +802,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                &#8226; Itaque earum
-                rerum hic
-                tenetur a
-                sapiente
-                delectus, ut
-                aut reiciendis
-                voluptatibus
-                maiores alias
-                consequatur
-                aut
-                perferendis
-                doloribus
-                asperiores
-                repellat.
+                &#8226; Add, edit, or delete me
               </Text>
             </AutoLayout>
           </AutoLayout>
@@ -1001,9 +870,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                &#8226; Autem
-                quibusdam et
-                aut officiis.
+                &#8226; Add, edit, or delete me
               </Text>
             </AutoLayout>
             <AutoLayout
@@ -1028,10 +895,7 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                &#8226; Harum quidem
-                rerum facilis
-                est et
-                expedita.
+                &#8226; Add, edit, or delete me
               </Text>
             </AutoLayout>
             <AutoLayout
@@ -1056,41 +920,10 @@ function InsightFramework() {
                 }
                 strokeAlign="inside"
               >
-                &#8226; Itaque earum
-                rerum hic
-                tenetur a
-                sapiente
-                delectus.
+                &#8226; Add, edit, or delete me
               </Text>
             </AutoLayout>
-            <AutoLayout
-              name="List Item"
-              overflow="visible"
-              width="fill-parent"
-            >
-              <Text
-                name="Sed quia non numquam eius modi tempora incidunt."
-                fill="#2C2B2A"
-                width="fill-parent"
-                paragraphSpacing={
-                  9
-                }
-                lineHeight={
-                  25
-                }
-                fontFamily="Inter"
-                fontSize={15}
-                strokeWidth={
-                  0
-                }
-                strokeAlign="inside"
-              >
-                &#8226; Sed quia non
-                numquam eius
-                modi tempora
-                incidunt.
-              </Text>
-            </AutoLayout>
+
           </AutoLayout>
         </AutoLayout>
       </AutoLayout>

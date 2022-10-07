@@ -1,7 +1,7 @@
 {
   "name": "insight-framework",
-  "version": "1.0.0",
-  "description": "The insight framework widget helps you to make sure you're answering the right questions during the project execution phase.",
+  "version": "0.0.2",
+  "description": "Helps you to make sure you're answering the right questions.",
   "scripts": {
     "test": "npm run tsc && npm run build",
     "format": "prettier --write .",
